@@ -1,0 +1,340 @@
+
+
+
+
+             <!-- On this page I just experimented with the HTML before it was called by the API -->
+
+                                                       
+                                               <!--  (1)  -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 20px;
+        }
+        .content{
+            width: 100%;
+            height: 2500px;
+            background:rgba(236, 236, 236, 0.55);
+            border-radius: 12px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            
+          
+        }
+        .blok1{
+            width: 40%;
+            height:200px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.74);
+            border-radius: 12px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        #imgg{
+            width: 100%; 
+            height:200px
+
+        }
+        .contenr1{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr2{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr3{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr4{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr5{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr6{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr7{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr8{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr9{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contenr10{
+            display: flex;
+            justify-content: space-around;
+        }
+        .navbar {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 8px;
+        border-radius: 12px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .logo {
+        width: 7%;
+        }
+
+        .navbarul {
+        list-style: none;
+        }
+
+        .navbarul li {
+        display: inline-block;
+        margin-left: 10px;
+        }
+
+        .navbarul li a {
+        color: #333;
+        text-decoration: none;
+        transition: 0.9s ease;
+        cursor: pointer;
+        }
+
+       .navbarul li a:hover {
+        color: #666666;
+        padding: 10px;
+        border-radius: 2%;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar li a img {
+        width: 24px;
+        }
+    </style>
+</head>
+
+<body>
+  <nav class="navbar">
+         <img class="logo" src="https://images.pexels.com/photos/332824/pexels-photo-332824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+          <ul class="navbarul">
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Connect us</a></li>
+            <li><a href="#"><img src="https://media.istockphoto.com/id/1446363728/vector/add-account-icon-vector-illustration-add-user-account-avatar-friend-profile-new-create-man.jpg?s=612x612&w=0&k=20&c=zkqBMsrIV6gV68eMgZN4QpqmtelHvvEJMJmWLfyVOkE=" alt="تسجيل "></a></li>
+            <li><a href="#"><img src="https://t3.ftcdn.net/jpg/05/70/32/34/360_F_570323499_w3TWD6rh5fy6xg9oPTGTnrWOHKbfAmAC.jpg"alt=" "></a></li>
+             <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/8459/8459339.png" alt="عربة التسوق"></a></li>
+          </ul>
+    </nav>
+ <div class="content" id="content" >
+   <center> <p style="font-family: 'Bree Serif', serif;
+    font-family: 'Indie Flower', cursive;; font-size: xx-large;"> Our unique products</p> 
+    <br>
+</center>
+ <div class="contenr1">
+    <div class="blok1" id="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="imgg" id="imgg" src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div> 
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+ <div class="contenr2">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr3">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr4">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr5">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr6">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr7">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr8">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr9">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div>
+
+ <div class="contenr10">
+    <div class="blok1">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+    <div class="blok1 ">
+        <div class="prodect">
+            <p id="prodect name">prodect name</p>
+            <p id="description">description Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+            <p id="price">price</p>
+        </div>      
+    <img class="price" style=" width: 100%; height:200px ;"src="https://png.pngtree.com/png-vector/20210602/ourlarge/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg">
+    </div>
+ </div> 
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html> -->
