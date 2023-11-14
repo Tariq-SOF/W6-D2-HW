@@ -40,53 +40,50 @@ fetch("https://fakestoreapi.com/products")
 
 
 function createAccount() {
-    
-  const username = document.getElementById('username').value;
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  
-  if (username.length < 5) {
-    alert("the username lees then five");
-    return;
-  }
-  
-  if (email.length === 0 || !erro(email)) {
-    alert(" the Email is valid ");
-    return;
-  }
-  
-  if (password.length < 8) {
-    alert("The passord number is leass then eit");
-    return;
-  }
-  fetch('https://6552c0675449cfda0f2dca61.mockapi.io/todo', {
-    method: 'POST',
-    body: JSON.stringify({
-      username,
-      email,
-      password
-    }),
-    headers: {
+  let username = document.getElementById('username').value;
+  let email = document.getElementById('email').value;
+  let password = document.getElementById('password').value;
+  let buten = document.getElementById("buten");
 
-      'Content-Type': 'application/json'
-
+  buten.addEventListener("click", () => {
+    if (username.length < 5) {
+      alert("The username is less than five characters");
+      return;
     }
-  })
-  .then(response => response.json())
-  .then(data => {
 
-    console.log(data);
-  })
-  .catch(error => {
-   
-    console.error(error);
+    if (email.length === 0 || !validateEmail(email)) {
+      alert("Invalid email address");
+      return;
+    }
+
+    if (password.length < 8) {
+      alert("The password is less than eight characters");
+      return;
+    }
+
+    fetch('https://6552c0675449cfda0f2dca61.mockapi.io/todo', {
+      method: 'POST',
+      body: JSON.stringify({
+        username,
+        email,
+        password
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    })
+    .catch(error => {
+      console.error(error);
+    });
   });
 }
 
-function erro (email) {
-
+function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
   return emailRegex.test(email);
 }
 
